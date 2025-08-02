@@ -54,6 +54,12 @@ npm run dev
 
 
 ```
+### 📌 Assumptions Made
+
+- **Users provide a valid email address** before starting the quiz.
+- **Quiz data is fetched from the Open Trivia DB API**, assumed to be reliable and correctly formatted.
+- **Only one attempt is allowed per session**, requiring refresh or restart for a new quiz.
+
 ## 💡 Challenges Faced
 
 ### API Limit
